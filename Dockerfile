@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Install vnc, xvfb in order to create a 'fake' display
 #############
-RUN apt-get update && apt-get install -y x11vnc xvfb twm mc 
+RUN apt-get update && apt-get install -y x11vnc xvfb twm mc nano
 
 # map /source to host source data path (used to )
 VOLUME /source
